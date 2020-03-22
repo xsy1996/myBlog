@@ -1,10 +1,10 @@
 ---
 
 layout: post
-title: Topcoder Practice 3/22
+title: Code Practice 3/22
 date: 2022/03/22
 Author: April
-tags: [Topcoder, code]
+tags: [code, algorithm, Java,C]
 comments: true
 toc: true
 
@@ -12,17 +12,31 @@ toc: true
 
 
 
-# SRM 663 div2
+# Codeforces Round #628 Div.2
 
-test
+## A
 
-test
+A lovely trick haha
 
-test
+```
+#include <stdio.h>
 
-test
+int main(void) {
 
-test
+  int cnt,x;
 
-test
+  scanf("%d",&cnt);
+
+  while(cnt--){
+
+    scanf("%d", &x);
+
+    printf("%d %d\n", 1, x-1);
+
+  }
+
+  return 0;
+
+}
+```
 
